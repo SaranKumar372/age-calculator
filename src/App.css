@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 86%);
+}
+
+input {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.result > p {
+  font-size: 4em;
+  font-weight: 800;
+}
+.day-heading, .month-heading, .year-heading {
+  color:hsl(0, 1%, 44%);
+}
+.result span {
+  color:hsl(259, 100%, 65%);
+}
+hr {
+  background-color: hsl(0, 0%, 86%);
+  height:0.1em;
+  border:none;
+  
+
+}
+section {
+  width:40em;
+  background-color: hsl(0, 0%, 100%);
+  margin:5em auto;
+  padding:3em;
+  border-radius:2em 2em 12em 2em;
+}
+
+.date-input {
+  display:flex;
+  gap:3em;
+}
+input {
+  width:3.5em;
+  padding:0.5em 1em;
+}
+.date-input > div {
+  line-height:0.1;
+}
+
+
+img {
+  background-color: hsl(259, 100%, 65%);
+  padding:1em;
+  border-radius: 50%;
+  display: block;
+  margin:-3em 0 0 auto;
+  
+}
+
+
+.result {
+  line-height: 0.1;
+}
+
